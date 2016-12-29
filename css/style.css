@@ -21,10 +21,6 @@ body{
 	margin: 0 auto;
 }
 
-.verde{
-	color: #b9c941;
-}
-
 #logo{
 	float: left;
 }
@@ -32,4 +28,28 @@ body{
 #menu{
 	float: right;
 	padding: 10px 0;
+}
+
+/*****************************************************
+**********************Formatação do links************/
+a{
+	text-decoration: none;
+	padding: 5px 10px;
+}
+
+/*Links Não Visitados*/
+a:link{
+	color: #838383;
+}
+/*Links Visitados*/
+a:visited{
+	color: #838383;
+}
+/* Links Hover*/
+a:hover{
+	color: #fff;
+	background: #b9c941;
+}
+.verde{
+	color: #b9c941;
 }
